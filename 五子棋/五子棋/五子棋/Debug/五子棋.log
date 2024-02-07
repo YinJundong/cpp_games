@@ -1,0 +1,32 @@
+﻿  Chess.cpp
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(27,35): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(27,35): message : 尝试匹配参数列表“(int, const char [14])”时
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(29,48): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(29,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(31,74): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(31,74): message : 尝试匹配参数列表“(IMAGE *, const char [14], float, float, bool)”时
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(32,74): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(259,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include\easyx.h(258,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(32,74): message : 尝试匹配参数列表“(IMAGE *, const char [14], float, float, bool)”时
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(45,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(46,13): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(47,21): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(48,21): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(49,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(54,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(63,16): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(65,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(75,26): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(76,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(85,26): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(86,26): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+I:\cpp\五子棋\五子棋\五子棋\Chess.cpp(87,19): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  ChessGame.cpp
+  源.cpp
+I:\cpp\五子棋\五子棋\五子棋\源.cpp(7,30): warning C4305: “参数”: 从“double”到“float”截断
+  正在生成代码...
